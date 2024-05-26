@@ -1,16 +1,15 @@
 
 # ExpenseTracker
 
-ReactMeals is a basic food ordering website built with React.js. The application allows users to browse food items, add them to a cart, modify quantities, and place orders. Users can also enter their billing details to complete their order. The list of food items is stored in Firebase Realtime Database, where you can manage the displayed food items.
+Expense Tracker is a simple web application built with React.js for tracking expenses. Users can add new expenses, view existing expenses, and delete expenses.
 ## Tech Stack
 
 **Frontend:** React JS
 
-  *Hooks: useEffect, useState, useContext, useReducer, useRef
+  *Hooks: useEffect, useState
 
 **Styling:** CSS
 
-**Database:** Firebase Realtime Database
   
 ## Demo
 
