@@ -1,70 +1,83 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ExpenseTracker
 
-## Available Scripts
+ReactMeals is a basic food ordering website built with React.js. The application allows users to browse food items, add them to a cart, modify quantities, and place orders. Users can also enter their billing details to complete their order. The list of food items is stored in Firebase Realtime Database, where you can manage the displayed food items.
+## Tech Stack
 
-In the project directory, you can run:
+**Frontend:** React JS
 
-### `npm start`
+  *Hooks: useEffect, useState, useContext, useReducer, useRef
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Styling:** CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Database:** Firebase Realtime Database
+  
+## Demo
 
-### `npm test`
+[https://verdant-cendol-c7f4e7.netlify.app/](https://verdant-cendol-c7f4e7.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](https://github.com/Dishankchovatia/ReactMeals/blob/main/Screenshots/mainscreen.png)
+## Run Locally
 
-### `npm run build`
+Clone the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  git clone https://github.com/Dishankchovatia/ReactMeals
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Go to the project directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  cd reactMeals
+```
 
-### `npm run eject`
+Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  npm run start
+```
+Configure Firebase
 
-## Learn More
+```bash
+-> Set up a Firebase project in the Firebase Console.
+-> Add a Realtime Database to your project.
+-> Copy your Firebase configuration and add it to your project.
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+  
+# Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Display Food Items: View a list of available food items on the main screen.
+![](https://github.com/Dishankchovatia/ReactMeals/blob/main/Screenshots/mainscreen.png)
 
-### Analyzing the Bundle Size
+### Add to Cart: Add food items to the cart.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Cart Display: View the items in the cart along with their quantities and total price.
+![](https://github.com/Dishankchovatia/ReactMeals/blob/main/Screenshots/cart.png)
 
-### Making a Progressive Web App
+### Modify Quantities: Increase or decrease the quantity of food items in the cart
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### Billing Details: Enter billing information, including name, street, city, and postal code.
+![](https://github.com/Dishankchovatia/ReactMeals/blob/main/Screenshots/order.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Place Order: Select food items and place an order.
 
-### Deployment
+### Firebase Integration: Store and manage the list of food items in Firebase Realtime Database.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+- [@Dishankchovatia](https://github.com/Dishankchovatia)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
+
+
+
