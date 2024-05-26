@@ -16,19 +16,19 @@ ReactMeals is a basic food ordering website built with React.js. The application
 
 [https://verdant-cendol-c7f4e7.netlify.app/](https://verdant-cendol-c7f4e7.netlify.app/)
 
-![](https://github.com/Dishankchovatia/ReactMeals/blob/main/Screenshots/mainscreen.png)
+![](https://github.com/Dishankchovatia/Expensstracker/blob/main/screenshots/mainscreen.png)
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/Dishankchovatia/ReactMeals
+  git clone https://github.com/Dishankchovatia/Expensstracker
 ```
 
 Go to the project directory
 
 ```bash
-  cd reactMeals
+  cd Expensstracker
 ```
 
 Install dependencies
@@ -43,36 +43,20 @@ Start the server
 ```bash
   npm run start
 ```
-Configure Firebase
 
-```bash
--> Set up a Firebase project in the Firebase Console.
--> Add a Realtime Database to your project.
--> Copy your Firebase configuration and add it to your project.
-```
-
-
-
-  
 # Features
 
-### Display Food Items: View a list of available food items on the main screen.
-![](https://github.com/Dishankchovatia/ReactMeals/blob/main/Screenshots/mainscreen.png)
-
-### Add to Cart: Add food items to the cart.
-
-### Cart Display: View the items in the cart along with their quantities and total price.
-![](https://github.com/Dishankchovatia/ReactMeals/blob/main/Screenshots/cart.png)
-
-### Modify Quantities: Increase or decrease the quantity of food items in the cart
+###  Add new expenses with title, amount, and date.
+![](https://github.com/Dishankchovatia/Expensstracker/blob/main/screenshots/add%20expense.png)
 
 
-### Billing Details: Enter billing information, including name, street, city, and postal code.
-![](https://github.com/Dishankchovatia/ReactMeals/blob/main/Screenshots/order.png)
+### View a list of expenses with their details.
+![](https://github.com/Dishankchovatia/Expensstracker/blob/main/screenshots/expensslist.png)
 
-### Place Order: Select food items and place an order.
 
-### Firebase Integration: Store and manage the list of food items in Firebase Realtime Database.
+
+### Delete expenses from the list.
+
 
 
 - [@Dishankchovatia](https://github.com/Dishankchovatia)
